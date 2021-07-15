@@ -13,7 +13,7 @@ public class CryptoTool  {
     private ReaderTool text;
 
 
-    public String ecrtypt() {
+    public String encrypt() {
         return  cryptoAlgorithm.encrypty(text.getText());
     }
 

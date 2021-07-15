@@ -16,7 +16,7 @@ public class MainClass {
         //Не удалять
        /* ctx.refresh();
         CryptoTool ct = ctx.getBean(CryptoTool.class);
-        System.out.println(ct.ecrtypt());
+        System.out.println(ct.encrypt());
         */
     }
 }
