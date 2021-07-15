@@ -6,7 +6,7 @@ public interface Crypto {
     /**
      * Encrypts a text
      *
-     * @param text orginal string
+     * @param text plain string
      * @return encryption text
      */
     String encrypty(String text);
@@ -14,8 +14,8 @@ public interface Crypto {
 
     /**
      * Decrypts a text
-     * @param text a decryption text
-     * @return
+     * @param text a ecryption text
+     * @return plain text
      */
     String decrypt(String text);
 
